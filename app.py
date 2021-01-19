@@ -1,12 +1,10 @@
-from flask import Flask
+import tkinter as tk
 
-app = Flask(__name__)
+window = tk.Tk()
 
+window.title("Chat Bot")
+window.geometry("600x400")
+window.resizable(width=False, height=False)
 
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
+window.mainloop()
 
-
-if __name__ == '__main__':
-    app.run()
