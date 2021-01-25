@@ -4,9 +4,10 @@
          "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
          "context_set": ""
         },
-
-        {"tag": "goodbye",
-         "patterns": ["Bye", "See you later", "Goodbye"],
-         "responses": []
+        {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": []
+        }
    ]
 }
