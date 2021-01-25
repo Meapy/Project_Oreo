@@ -3,11 +3,6 @@
          "patterns": ["Language", "Lang", "Arabic", "Movies in arabic"],
          "responses": [...],
         },
-        {
-        "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
-        "responses": []
-        },
 
         {"tag": "languages_cn",
          "patterns": ["Language", "Lang", "Chinese", "China", "Asian", "Movies in chinese"],
@@ -64,9 +59,20 @@
          "responses": [...],
         },
 
-		{"tag": "Genre",
+        {"tag": "genres",
          "patterns": ["Genre", "List of genre", "What genres are there?", "Types of movie", "Types of Film", "Category", "Sort of film"],
          "responses": [...],
-        }
-		]
+        },
+
+
+
+
+	
+
+
+
+
+
+
+
 }
