@@ -1,13 +1,74 @@
 {"intents": [
-        {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
-         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
-         "context_set": ""
+        {"tag": "languages_ar",
+         "patterns": ["Language", "Lang", "Arabic", "Movies in arabic"],
+         "responses": [...],
         },
         {
         "tag": "goodbye",
         "patterns": ["Bye", "See you later", "Goodbye"],
         "responses": []
         }
-   ]
+
+        {"tag": "languages_cn",
+         "patterns": ["Language", "Lang", "Chinese", "China", "Asian", "Movies in chinese"],
+         "responses": [...],
+        },
+
+        {"tag": "languages_en",
+         "patterns": ["Language", "Lang", "English", "Movies in english"],
+         "responses": [...],
+        },
+
+        {"tag": "languages_fr",
+         "patterns": ["Language", "Lang", "French", "France", "Movies in french"],
+         "responses": [...],
+        },
+
+        {"tag": "languages_de",
+         "patterns": ["Language", "Lang", "German", "Germany", "Movies in german"],
+         "responses": [...],
+        },
+
+        {"tag": "languages_hi",
+         "patterns": ["Language", "Lang", "Hindi", "Indian", "India", "Movies in hindi"],
+         "responses": [...],
+        },
+
+        {"tag": "languages_it",
+         "patterns": ["Language", "Lang", "Italian", "Italy", "Movies in italian"],
+         "responses": [...],
+        },
+
+        {"tag": "languages_ja",
+         "patterns": ["Language", "Lang", "Japanese", "Japan", "Asian", "Movies in japanese"],
+         "responses": [...],
+        },
+
+        {"tag": "languages_kr",
+         "patterns": ["Language", "Lang", "Korean", "Asian", "Movies in korean"],
+         "responses": [...],
+        },
+
+        {"tag": "languages_pt",
+         "patterns": ["Language", "Lang", "Portuguese", "Movies in portuguese"],
+         "responses": [...],
+        },
+
+        {"tag": "languages_ru",
+         "patterns": ["Language", "Lang", "Russian", "Slav", "Movies in russian"],
+         "responses": [...],
+        },
+
+        {"tag": "languages_es",
+         "patterns": ["Language", "Lang", "Spanish", "Latino", "Latina", "Movies in spanish"],
+         "responses": [...],
+        },
+
+		{"tag": "Genre",
+         "patterns": ["Genre", "List of genre", "What genres are there?", "Types of movie", "Types of Film", "Category", "Sort of film"],
+         "responses": [...],
+        },
+		]
+	
+
 }
