@@ -129,4 +129,6 @@ dmypy.json
 .pyre/
 
 # Other
-tflearn_logs/
+/tflearn_logs/
+/models/
+
