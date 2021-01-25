@@ -7,7 +7,6 @@
 
         {"tag": "goodbye",
          "patterns": ["Bye", "See you later", "Goodbye"],
-         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
-        }
+         "responses": []
    ]
 }
