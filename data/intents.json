@@ -78,19 +78,18 @@
          "patterns": ["Genre", "List of genre", "What genres are there?", "Types of movie", "Types of Film", "Category", "Sort of film"],
          "responses": ["List of Genres.csv"],
          "context": [""]
-        }
-		]
-         "responses": [...],
         },
         {"tag": "highest grossing",
          "patterns": ["Highest grossing", "Grossing", "Best earning", "Highest earning", "most money made", "What is the best grossing movie?", "What is the best grossing film?",
 		"what movie made the most money?", "which film had the best earnings?", "most money earned", "highest earnings"],
-         "responses": [...],
+         "responses": ["Highest_Grossing_Movies"],
+          "context": [""]
         },
 
         {"tag": "most popular",
          "patterns": ["most popular", "popular", "most liked", "best known", "favourite", "What is the most popular movie?", "in demand", "admired", "in favour", "desired", "sought-after", "pop", "wanted"],
-         "responses": [...],
+         "responses": ["Most_Popular_Movies"],
+          "context": [""]
         },
 
 }
