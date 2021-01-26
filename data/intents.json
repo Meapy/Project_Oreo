@@ -1,48 +1,45 @@
 {"intents": [
-        {"tag": "languages_ar",
+        {"tag": "Some movies in Arabic are:",
          "patterns": ["Arabic", "arabic"],
          "responses": ["data/responses_csv/languages/Arabic.csv"],
          "context": [""]
         },
-
         {
         "tag": "goodbye",
         "patterns": ["Bye", "See you later", "Goodbye"],
         "responses": ["good bye!"],
         "context": [""]
         },
-
-        {"tag": "languages_cn",
+        {"tag": "Some Movies in Chinese are:",
          "patterns": ["Chinese", "China", "Asian", " chinese"],
          "responses": ["data/responses_csv/languages/Chinese.csv"],
          "context": [""]
         },
-
-        {"tag": "languages_en",
+        {"tag": "Some movies in English are:",
          "patterns": ["English", "english"],
          "responses": ["data/responses_csv/Languages/English.csv"],
          "context": [""]
         },
 
-        {"tag": "languages_fr",
+        {"tag": "Some movies in French",
          "patterns": ["French", "France", "french"],
          "responses": ["data/responses_csv/languages/French.csv"],
          "context": [""]
         },
 
-        {"tag": "languages_de",
+        {"tag": "Some movies in German",
          "patterns": ["German", "Germany", "german"],
          "responses": ["data/responses_csv/languages/German.csv"],
          "context": [""]
         },
 
-        {"tag": "languages_hi",
+        {"tag": "Some movies in Hindi",
          "patterns": ["Hindi", "Indian", "India", "hindi"],
          "responses": ["data/responses_csv/languages/Hindi.csv"],
          "context": [""]
         },
 
-        {"tag": "languages_it",
+        {"tag": "Some movies in Italian",
          "patterns": ["Italian", "Italy", "italian"],
          "responses": ["data/responses_csv/languages/Italien.csv"],
          "context": [""]
@@ -95,8 +92,7 @@
          "responses": ["data/responses_csv/Most popular movies.csv"],
          "context": [""]
         },
-
-	{"tag": "action movies",
+	    {"tag": "action movies",
           "patterns": ["Action movies", "Action"],
           "responses": ["data/responses_csv/Genre Movies/List of Action Movies.csv"],
           "context": [""]
