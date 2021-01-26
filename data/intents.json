@@ -170,7 +170,7 @@
         },
 
         {"tag": "thriller fiction movies",
-          "patterns": ["Thriller movies", "Thriller", "Thrill"],
+          "patterns": ["Thriller movies", "Thriller", "Thrill", "Thrilling"],
           "responses": ["data/responses_csv/Genre Movies/List of Thriller Movies.csv"],
           "context": [""]
         }
