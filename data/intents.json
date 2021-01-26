@@ -1,7 +1,7 @@
 {"intents": [
         {"tag": "languages_ar",
-         "patterns": ["Language", "Lang", "Arabic", "arabic"],
-         "responses": ["languages/Arabic.csv"],
+         "patterns": ["Arabic", "arabic"],
+         "responses": ["data/responses_csv/languages/Arabic.csv"],
          "context": [""]
         },
         {
@@ -11,82 +11,82 @@
         "context": [""]
         },
         {"tag": "languages_cn",
-         "patterns": ["Language", "Lang", "Chinese", "China", "Asian", " chinese"],
-         "responses": ["languages/Chinese.csv"],
+         "patterns": ["Chinese", "China", "Asian", " chinese"],
+         "responses": ["data/responses_csv/languages/Chinese.csv"],
          "context": [""]
         },
         {"tag": "languages_en",
-         "patterns": ["Language", "Lang", "English", "english"],
-         "responses": ["languages/English.csv"],
+         "patterns": ["English", "english"],
+         "responses": ["data/responses_csv/Languages/English.csv"],
          "context": [""]
         },
 
         {"tag": "languages_fr",
-         "patterns": ["Language", "Lang", "French", "France", "french"],
-         "responses": ["languages/French.csv"],
+         "patterns": ["French", "France", "french"],
+         "responses": ["data/responses_csv/languages/French.csv"],
          "context": [""]
         },
 
         {"tag": "languages_de",
-         "patterns": ["Language", "Lang", "German", "Germany", "german"],
-         "responses": ["languages/German.csv"],
+         "patterns": ["German", "Germany", "german"],
+         "responses": ["data/responses_csv/languages/German.csv"],
          "context": [""]
         },
 
         {"tag": "languages_hi",
-         "patterns": ["Language", "Lang", "Hindi", "Indian", "India", "hindi"],
-         "responses": ["languages/Hindi.csv"],
+         "patterns": ["Hindi", "Indian", "India", "hindi"],
+         "responses": ["data/responses_csv/languages/Hindi.csv"],
          "context": [""]
         },
 
         {"tag": "languages_it",
-         "patterns": ["Language", "Lang", "Italian", "Italy", "italian"],
-         "responses": ["languages/Italien.csv"],
+         "patterns": ["Italian", "Italy", "italian"],
+         "responses": ["data/responses_csv/languages/Italien.csv"],
          "context": [""]
         },
 
         {"tag": "languages_ja",
-         "patterns": ["Language", "Lang", "Japanese", "Japan", "Asian", "japanese"],
-         "responses": ["languages/Japanese.csv"],
+         "patterns": ["Japanese", "Japan", "Asian", "japanese"],
+         "responses": ["data/responses_csv/languages/Japanese.csv"],
          "context": [""]
         },
 
         {"tag": "languages_kr",
-         "patterns": ["Language", "Lang", "Korean", "Asian", "korean"],
-         "responses": ["languages/Korean.csv"],
+         "patterns": ["Korean", "Asian", "korean"],
+         "responses": ["data/responses_csv/languages/Korean.csv"],
          "context": [""]
         },
 
         {"tag": "languages_pt",
-         "patterns": ["Language", "Lang", "Portuguese", "portuguese"],
-         "responses": ["languages/Portuguese.csv"],
+         "patterns": ["Portuguese", "portuguese"],
+         "responses": ["data/responses_csv/languages/Portuguese.csv"],
          "context": [""]
         },
 
         {"tag": "languages_ru",
-         "patterns": ["Language", "Lang", "Russian", "Slav", "russian"],
-         "responses": ["languages/Russian.csv"],
+         "patterns": ["Russian", "Slav", "russian"],
+         "responses": ["data/responses_csv/languages/Russian.csv"],
          "context": [""]
         },
 
         {"tag": "languages_es",
-         "patterns": ["Language", "Lang", "Spanish", "Latino", "Latina", "spanish"],
-         "responses": ["languages/Spanish.csv"],
+         "patterns": ["Spanish", "Latino", "Latina", "spanish"],
+         "responses": ["data/responses_csv/Languages/Spanish.csv"],
          "context": [""]
         },
         {"tag": "genres",
          "patterns": ["Genre", "List of genre", "What genres are there?", "Types of movie", "Types of Film", "Category", "Sort of film"],
-         "responses": ["List of Genres.csv"],
+         "responses": ["data/responses_csv/List of Genres.csv"],
          "context": [""]
         },
         {"tag": "highest grossing",
          "patterns": ["Highest grossing", "Grossing", "Best earning", "Highest earning", "most money made", "What is the best grossing movie?", "What is the best grossing film?","what movie made the most money?", "which film had the best earnings?", "most money earned", "highest earnings"],
-         "responses": ["Highest_Grossing_Movies"],
+         "responses": ["data/responses_csv/Highest grossing movies.csv"],
          "context": [""]
         },
         {"tag": "most popular",
          "patterns": ["most popular", "popular", "most liked", "best known", "favourite", "What is the most popular movie?", "in demand", "admired", "in favour", "desired", "sought-after", "pop", "wanted"],
-         "responses": ["Most_Popular_Movies"],
+         "responses": ["data/responses_csv/Most popular movies.csv"],
          "context": [""]
         }
   ]
