@@ -4,12 +4,6 @@
          "responses": ["data/responses_csv/languages/Arabic.csv"],
          "context": [""]
         },
-        {
-        "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
-        "responses": ["good bye!"],
-        "context": [""]
-        },
         {"tag": "Some Movies in Chinese are:",
          "patterns": ["Chinese", "China", "Asian", " chinese"],
          "responses": ["data/responses_csv/languages/Chinese.csv"],
