@@ -88,6 +88,81 @@
          "patterns": ["most popular", "popular", "most liked", "best known", "favourite", "What is the most popular movie?", "in demand", "admired", "in favour", "desired", "sought-after", "pop", "wanted"],
          "responses": ["data/responses_csv/Most popular movies.csv"],
          "context": [""]
+        },
+	{"tag": "action movies",
+          "patterns": ["Action movies", "Action"],
+          "responses": ["List of Action Movies"],
+          "context": [""]
+        },
+        {"tag": "adventure movies",
+          "patterns": ["Adventure movies", "Adventure"],
+          "responses": ["List of Adventure Movies"],
+          "context": [""]
+        },
+        {"tag": "animation movies",
+          "patterns": ["Animation movies", "Animation", "Cartoon", "Anime"],
+          "responses": ["List of Animation Movies"],
+          "context": [""]
+        },
+        {"tag": "comedy movies",
+          "patterns": ["Comedy movies", "Comedy", "Funny"],
+          "responses": ["List of Comedy Movies"],
+          "context": [""]
+        },
+        {"tag": "documentary movies",
+          "patterns": ["Documentary movies", "Documentary", "Docu"],
+          "responses": ["List of Documentary Movies"],
+          "context": [""]
+        },
+        {"tag": "drama movies",
+          "patterns": ["Drama movies", "Drama", "Dramatic"],
+          "responses": ["List of Drama Movies"],
+          "context": [""]
+        },
+        {"tag": "family movies",
+          "patterns": ["Family movies", "Family", "Children"],
+          "responses": ["List of Family Movies"],
+          "context": [""]
+        },
+        {"tag": "fantasy movies",
+          "patterns": ["Fantasy movies", "Fantasy"],
+          "responses": ["List of Fantasy Movies"],
+          "context": [""]
+        },
+        {"tag": "history movies",
+          "patterns": ["History movies", "History"],
+          "responses": ["List of History Movies"],
+          "context": [""]
+        },
+        {"tag": "horror movies",
+          "patterns": ["Horror movies", "Horror", "Scary"],
+          "responses": ["List of Horror Movies"],
+          "context": [""]
+        },
+        {"tag": "music movies",
+          "patterns": ["Music movies", "Music", "Musical"],
+          "responses": ["List of Music Movies"],
+          "context": [""]
+        },
+        {"tag": "mystery movies",
+          "patterns": ["Mystery movies", "Mystery"],
+          "responses": ["List of Mystery Movies"],
+          "context": [""]
+        },
+        {"tag": "romance movies",
+          "patterns": ["Romance movies", "Romance"],
+          "responses": ["List of Romance Movies"],
+          "context": [""]
+        },
+        {"tag": "science fiction movies",
+          "patterns": ["Science Fiction movies", "Science fiction", "Sci-fi", "Sci fi"],
+          "responses": ["List of Science Fiction Movies"],
+          "context": [""]
+        },
+        {"tag": "thriller fiction movies",
+          "patterns": ["Thriller movies", "Thriller", "Thrill"],
+          "responses": ["List of ThrillerMovies"],
+          "context": [""]
         }
-  ]
+]
 }
