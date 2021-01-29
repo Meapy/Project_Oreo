@@ -112,14 +112,18 @@ def response(sentence, userID='123', show_details=False):
                             for row in reader:
                                 answer_list.insert(k, row)
                                 k += 1
-                        answer = random.sample(answer_list, 10)
-                        answer = ', '.join(map(str, answer))
-                        answer = answer.replace("[", "")
-                        answer = answer.replace("]", "")
-                        answer = answer.replace("'", "")
-                        tag = random.choice(i['start'])
-                        tag = ''.join(map(str, tag))
-                        return tag + " " + answer
+                        if i['tag'] != "Easter Eggs":
+                            answer = random.sample(answer_list, 10)
+                            answer = ', '.join(map(str, answer))
+                            answer = answer.replace("[", "").replace("'", "").replace("]", "")
+                            tag = random.choice(i['start'])
+                            tag = ''.join(map(str, tag))
+                            return tag + " " + answer
+                        else:
+                            answer = random.choice(answer_list)
+                            answer = ''.join(map(str, answer))
+                            answer = answer.replace("{", "").replace("}", "")
+                            return answer
 
             results.pop(0)
 

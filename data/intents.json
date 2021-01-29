@@ -21,7 +21,7 @@
         },
 
         {"tag": "French:",
-         "start": ["Some movies in French are:", "10 movies in french:"],
+         "start": ["Some movies in French are:", "10 movies in french:", "Here are some French movies:"],
          "patterns": ["French", "France", "french, surrender"],
          "responses": ["data/responses_csv/languages/French.csv"],
          "context": [""]
@@ -104,12 +104,13 @@
          "context": [""]
         },
 
-	{"tag": "Action movies:",
+	    {"tag": "Action movies:",
          "start": ["Some action movies are:", "10 action movies:"],
           "patterns": ["Action movies", "Action"],
           "responses": ["data/responses_csv/Genre Movies/List of Action Movies.csv"],
           "context": [""]
         },
+
         {"tag": "Adventure movies:",
          "start": ["Here are some adventure movies are:", "List of adventure movies:"],
           "patterns": ["Adventure movies", "Adventure"],
@@ -205,6 +206,12 @@
          "start": ["Genre - Thriller:", "List of thriller movies:"],
           "patterns": ["Thriller movies", "Thriller", "Thrill", "Thrilling"],
           "responses": ["data/responses_csv/Genre Movies/List of Thriller Movies.csv"],
+          "context": [""]
+        },
+        {"tag": "Easter Eggs",
+         "start": [],
+          "patterns": ["Easter Egg"],
+          "responses": ["data/easter_eggs.csv"],
           "context": [""]
         }
 ]
