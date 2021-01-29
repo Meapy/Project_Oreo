@@ -9,7 +9,8 @@
          "responses": ["data/responses_csv/languages/Chinese.csv"],
          "context": [""]
         },
-        {"tag": "Some movies in English are:",
+        {"tag": "English",
+         "start": ["Some movies in English are:", "10 English movies:"],
          "patterns": ["English", "english"],
          "responses": ["data/responses_csv/Languages/English.csv"],
          "context": [""]

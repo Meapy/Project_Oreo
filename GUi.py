@@ -117,8 +117,7 @@ def response(sentence, userID='123', show_details=False):
                         answer = answer.replace("[", "")
                         answer = answer.replace("]", "")
                         answer = answer.replace("'", "")
-                        answer = answer.replace('"', '')
-                        tag = i['tag']
+                        tag = random.choice(i['start'])
                         tag = ''.join(map(str, tag))
                         return tag + " " + answer
 
