@@ -106,18 +106,18 @@ def response(sentence, userID='123', show_details=False):
                         answer = i['responses']
                         answer = ', '.join(map(str, answer))
                         answer_list = []
-                        with open(answer, 'r', encoding="utf8") as file:
+                        with open(answer, 'r', encoding="utf-8") as file:
                             reader = csv.reader(file)
                             k = 0
                             for row in reader:
                                 answer_list.insert(k, row)
                                 k += 1
                         answer = random.sample(answer_list, 10)
-                        answer = ' '.join(map(str, answer))
+                        answer = ', '.join(map(str, answer))
                         answer = answer.replace("[", "")
                         answer = answer.replace("]", "")
                         answer = answer.replace("'", "")
-                        answer = answer.replace("\" ", "")
+                        answer = answer.replace('"', '')
                         tag = i['tag']
                         tag = ''.join(map(str, tag))
                         return tag + " " + answer
