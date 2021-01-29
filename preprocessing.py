@@ -1,7 +1,12 @@
 from pathlib import Path # available in python 3.4 +
 
 import pandas as pd
-dir = r'data/responses_csv' # raw string for windows.
+Genre_dir = r'data/responses_csv/Genre Movies' # raw string for windows.
+Languages_dir = r'data/responses_csv/Languages'
+Others_dir = r'data/responses_csv'
+
+
+dir = Others_dir
 csv_files = [f for f in Path(dir).glob('*.csv')] # finds all csvs in your folder.
 
 data = ''
