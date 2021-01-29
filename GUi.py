@@ -123,6 +123,7 @@ def response(sentence, userID='123', show_details=False):
 
             results.pop(0)
 
+
 from tkinter import *
 
 root = Tk()
