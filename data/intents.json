@@ -35,7 +35,7 @@
         },
 
         {"tag": "Some movies in Hindi:",
-         "start": Here is a list of movies in Hindi:", "Looking for hindi movies? Here are some:"],
+         "start": ["Here is a list of movies in Hindi:", "Looking for hindi movies? Here are some:"],
          "patterns": ["Hindi", "Indian", "India", "hindi"],
          "responses": ["data/responses_csv/languages/Hindi.csv"],
          "context": [""]
@@ -132,7 +132,7 @@
         },
 
         {"tag": "Here are some documentary movies:",
-         "start": List of documentaries are:", "These are some documentaries:"],
+         "start": ["List of documentaries are:", "These are some documentaries:"],
           "patterns": ["Documentary movies", "Documentary", "Docu"],
           "responses": ["data/responses_csv/Genre Movies/List of Documentary Movies.csv"],
           "context": [""]
