@@ -167,13 +167,8 @@
           "responses": ["data/responses_csv/Genre Movies/List of Science Fiction Movies.csv"],
           "context": [""]
         },
-
-        {
-          "tag": "Here are some thriller fiction movies:",
-          "patterns": ["Thriller movies", "Thriller", "Thrill"]
-        },
   
-        {"tag": "thriller fiction movies:",
+        {"tag": "Here are some thriller fiction movies:",
           "patterns": ["Thriller movies", "Thriller", "Thrill", "Thrilling"],
           "responses": ["data/responses_csv/Genre Movies/List of Thriller Movies.csv"],
           "context": [""]
