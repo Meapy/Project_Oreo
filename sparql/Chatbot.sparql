@@ -1,195 +1,195 @@
 SELECT ?n
 WHERE{
   ?Movie_ID a :Movie;
-     :spoken_languages :Language_ar ; #arabic
+     :spoken_languages :Language_ar ; arabic
      :original_title ?n
 }
 LIMIT 100
 
 
-#:spoken_languages :Language_cn ; #chinese
+:spoken_languages :Language_cn ; #chinese
 
-#:spoken_languages :Language_en ; #english
+:spoken_languages :Language_en ; #english
 
-#:spoken_languages :Language_fr ; #french
+:spoken_languages :Language_fr ; #french
 
-#:spoken_languages :Language_de ; #german
+:spoken_languages :Language_de ; #german
 
-#:spoken_languages :Language_hi ; #hindi
+:spoken_languages :Language_hi ; #hindi
 
-#:spoken_languages :Language_it ; #italian
+:spoken_languages :Language_it ; #italian
 
-#:spoken_languages :Language_ja ; #japanese
+:spoken_languages :Language_ja ; #japanese
 
-#:spoken_languages :Language_kr ; #korean
+:spoken_languages :Language_kr ; #korean
 
-#:spoken_languages :Language_pt ; #portuguese
+:spoken_languages :Language_pt ; #portuguese
 
-#:spoken_languages :Language_ru ; #russian
+:spoken_languages :Language_ru ; #russian
 
-#:spoken_languages :Language_es ; #spanish
+:spoken_languages :Language_es ; #spanish
 
-#SELECT ?Highest_grossing
-#WHERE{
-  #?m a :Movie;
-     #:title ?Highest_grossing;
-     #:budget ?b;
+SELECT ?Highest_grossing
+WHERE{
+  ?m a :Movie;
+     :title ?Highest_grossing;
+     :budget ?b;
      
-     #}
-    #ORDER BY DESC(?b)
-#LIMIT 100
+     }
+    ORDER BY DESC(?b)
+LIMIT 100
 
-#SELECT ?Most_popular
-#WHERE{
-  #?m a :Movie;
-     #:title ?Most_popular;
-  	 #:popularity ?p;
+SELECT ?Most_popular
+WHERE{
+  ?m a :Movie;
+     :title ?Most_popular;
+  	 :popularity ?p;
   
-	 #}
-  #ORDER BY DESC(?p)
-#LIMIT 100
+	 }
+  ORDER BY DESC(?p)
+LIMIT 100
 
-#SELECT DISTINCT ?j
-#WHERE{
-  #?s a :Cast;
-     #:name "Steven Spielberg" . 
-   #?m a :Crew;
-      #:name "Steven Spielberg";
-     #:job ?j
-#}
-#LIMIT 10
+SELECT DISTINCT ?j
+WHERE{
+  ?s a :Cast;
+     :name "Steven Spielberg" . 
+   ?m a :Crew;
+      :name "Steven Spielberg";
+     :job ?j
+}
+LIMIT 10
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Comedy".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Comedy".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Drama".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Drama".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Family".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Family".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Romance".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Romance".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Thriller".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Thriller".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Action".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Action".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Animation".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Animation".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Adventure".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Adventure".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Horror".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Horror".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Documentary".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Documentary".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Music".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Music".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Science Fiction".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Science Fiction".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Mystery".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Mystery".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "Fantasy".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "Fantasy".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:title ?t;
-     #:genres ?g.
-#?g   :name "History".
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :title ?t;
+     :genres ?g.
+?g   :name "History".
+}
 
-#SELECT ?t
-#WHERE{
-  #?s a :Movie;
-     #:production_countries :Country_US;
-     #:title ?t;
-#}
+SELECT ?t
+WHERE{
+  ?s a :Movie;
+     :production_countries :Country_US;
+     :title ?t;
+}
 
-#SELECT ?Most_revenue
-#WHERE{
-  #?m a :Movie;
-     #:title ?Most_revenue;
-     #:revenue ?r;
-     #}
-#ORDER BY DESC(?r)
+SELECT ?Most_revenue
+WHERE{
+  ?m a :Movie;
+     :title ?Most_revenue;
+     :revenue ?r;
+     }
+ORDER BY DESC(?r)
