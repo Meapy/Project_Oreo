@@ -15,161 +15,161 @@
          "context": [""]
         },
 
-        {"tag": "Some movies in French",
+        {"tag": "Some movies in French:",
          "patterns": ["French", "France", "french"],
          "responses": ["data/responses_csv/languages/French.csv"],
          "context": [""]
         },
 
-        {"tag": "Some movies in German",
+        {"tag": "Some movies in German:",
          "patterns": ["German", "Germany", "german"],
          "responses": ["data/responses_csv/languages/German.csv"],
          "context": [""]
         },
 
-        {"tag": "Some movies in Hindi",
+        {"tag": "Some movies in Hindi:",
          "patterns": ["Hindi", "Indian", "India", "hindi"],
          "responses": ["data/responses_csv/languages/Hindi.csv"],
          "context": [""]
         },
 
-        {"tag": "Some movies in Italian",
+        {"tag": "Some movies in Italian:",
          "patterns": ["Italian", "Italy", "italian"],
          "responses": ["data/responses_csv/languages/Italien.csv"],
          "context": [""]
         },
 
-        {"tag": "languages_ja",
+        {"tag": "Some movies in Japanese:",
          "patterns": ["Japanese", "Japan", "Asian", "japanese"],
          "responses": ["data/responses_csv/languages/Japanese.csv"],
          "context": [""]
         },
 
-        {"tag": "languages_kr",
+        {"tag": "Some movies in Korean:",
          "patterns": ["Korean", "Asian", "korean"],
          "responses": ["data/responses_csv/languages/Korean.csv"],
          "context": [""]
         },
 
-        {"tag": "languages_pt",
+        {"tag": "Some movies in Portuguese:",
          "patterns": ["Portuguese", "portuguese"],
          "responses": ["data/responses_csv/languages/Portuguese.csv"],
          "context": [""]
         },
 
-        {"tag": "languages_ru",
+        {"tag": "Some Russian movies:",
          "patterns": ["Russian", "Slav", "russian"],
          "responses": ["data/responses_csv/languages/Russian.csv"],
          "context": [""]
         },
 
-        {"tag": "languages_es",
+        {"tag": "Some movies in Spanish",
          "patterns": ["Spanish", "Latino", "Latina", "spanish"],
          "responses": ["data/responses_csv/Languages/Spanish.csv"],
          "context": [""]
         },
 
-        {"tag": "genres",
+        {"tag": "Here are some movie genres:",
          "patterns": ["Genre", "List of genre", "What genres are there?", "Types of movie", "Types of Film", "Category", "Sort of film"],
          "responses": ["data/responses_csv/List of Genres.csv"],
          "context": [""]
         },
 
-        {"tag": "highest grossing",
+        {"tag": "Here are some of the highest grossing movies:",
          "patterns": ["Highest grossing", "Grossing", "Best earning", "Highest earning", "most money made", "What is the best grossing movie?", "What is the best grossing film?","what movie made the most money?", "which film had the best earnings?", "most money earned", "highest earnings"],
          "responses": ["data/responses_csv/Highest grossing movies.csv"],
          "context": [""]
         },
 
-        {"tag": "most popular",
+        {"tag": "Here are some most popular movies:",
          "patterns": ["most popular", "popular", "most liked", "best known", "favourite", "What is the most popular movie?", "in demand", "admired", "in favour", "desired", "sought-after", "pop", "wanted"],
          "responses": ["data/responses_csv/Most popular movies.csv"],
          "context": [""]
         },
-	    {"tag": "action movies",
+	    {"tag": "Here are some action movies:",
           "patterns": ["Action movies", "Action"],
           "responses": ["data/responses_csv/Genre Movies/List of Action Movies.csv"],
           "context": [""]
         },
-        {"tag": "adventure movies",
+        {"tag": "Here are some adventure movies:",
           "patterns": ["Adventure movies", "Adventure"],
           "responses": ["data/responses_csv/Genre Movies/List of Adventure Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "animation movies",
+        {"tag": "Here are some animation movies:",
           "patterns": ["Animation movies", "Animation", "Cartoon", "Anime"],
           "responses": ["data/responses_csv/Genre Movies/List of Animation Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "comedy movies",
+        {"tag": "Here are some comedy movies:",
           "patterns": ["Comedy movies", "Comedy", "Funny"],
           "responses": ["data/responses_csv/Genre Movies/List of Comedy Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "documentary movies",
+        {"tag": "Here are some documentary movies:",
           "patterns": ["Documentary movies", "Documentary", "Docu"],
           "responses": ["data/responses_csv/Genre Movies/List of Documentary Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "drama movies",
+        {"tag": "Here are some drama movies:",
           "patterns": ["Drama movies", "Drama", "Dramatic"],
           "responses": ["data/responses_csv/Genre Movies/List of Drama Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "family movies",
+        {"tag": "Here are some drama family movies:",
           "patterns": ["Family movies", "Family", "Children"],
           "responses": ["data/responses_csv/Genre Movies/List of Family Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "fantasy movies",
+        {"tag": "Here are some fantasy movies:",
           "patterns": ["Fantasy movies", "Fantasy"],
           "responses": ["data/responses_csv/Genre Movies/List of Fantasy Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "history movies",
+        {"tag": "Here are some  history movies:",
           "patterns": ["History movies", "History"],
           "responses": ["data/responses_csv/Genre Movies/List of History Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "horror movies",
+        {"tag": "Here are some horror movies:",
           "patterns": ["Horror movies", "Horror", "Scary"],
           "responses": ["data/responses_csv/Genre Movies/List of Horror Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "music movies",
+        {"tag": "Here are some music movies:",
           "patterns": ["Music movies", "Music", "Musical"],
           "responses": ["data/responses_csv/Genre Movies/List of Music Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "mystery movies",
+        {"tag": "Here are some mystery movies:",
           "patterns": ["Mystery movies", "Mystery"],
           "responses": ["data/responses_csv/Genre Movies/List of Mystery Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "romance movies",
+        {"tag": "Here are some romance movies:",
           "patterns": ["Romance movies", "Romance"],
           "responses": ["data/responses_csv/Genre Movies/List of Romance Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "science fiction movies",
+        {"tag": "Here are some science fiction movies:",
           "patterns": ["Science Fiction movies", "Science fiction", "Sci-fi", "Sci fi"],
           "responses": ["data/responses_csv/Genre Movies/List of Science Fiction Movies.csv"],
           "context": [""]
         },
 
-        {"tag": "thriller fiction movies",
+        {"tag": "Here are some thriller fiction movies:",
           "patterns": ["Thriller movies", "Thriller", "Thrill"],
           "responses": ["data/responses_csv/Genre Movies/List of Thriller Movies.csv"],
           "context": [""]
