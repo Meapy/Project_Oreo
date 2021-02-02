@@ -20,3 +20,6 @@ Types of quieries the app responds to:
  
  Adding more quieres is as simple as getting more CSV files with a list of movies and then adding it to the intents.json file with the relevent information
  and then retraining the model. The app is also really fast as it does no machine learning after you write in your query. it is all done before the program is ran.
+
+
+To run this project, run Main.ipynb first and then gui.py
